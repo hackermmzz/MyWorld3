@@ -1,0 +1,4 @@
+C:/vscode/MyWorld3/build/CMakeFiles/MyWorld3.dir
+C:/vscode/MyWorld3/build/CMakeFiles/edit_cache.dir
+C:/vscode/MyWorld3/build/CMakeFiles/rebuild_cache.dir
+C:/vscode/MyWorld3/build/CMakeFiles/MyWorld3_autogen.dir

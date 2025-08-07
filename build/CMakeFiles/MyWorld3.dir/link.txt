@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\MyWorld3.dir/objects.a
+C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\ar.exe qc CMakeFiles\MyWorld3.dir/objects.a @CMakeFiles\MyWorld3.dir\objects1.rsp
+C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\MyWorld3.dir/objects.a -Wl,--no-whole-archive -o MyWorld3.exe -Wl,--out-implib,libMyWorld3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MyWorld3.dir\linkLibs.rsp

@@ -1,0 +1,9 @@
+{
+    "qtConfigure.qtKitDir": "C:/Qt/Qt5.9.2//5.9.2/mingw53_32",
+    "files.associations": {
+        "*.asm": "nasm",
+        "*.c": "c",
+        "qmainwindow": "cpp",
+        "qapplication": "cpp"
+    }
+}
