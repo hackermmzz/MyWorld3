@@ -4,6 +4,25 @@
         "*.asm": "nasm",
         "*.c": "c",
         "qmainwindow": "cpp",
-        "qapplication": "cpp"
+        "qapplication": "cpp",
+        "new": "cpp",
+        "atomic": "cpp",
+        "chrono": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "functional": "cpp",
+        "fstream": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "sstream": "cpp",
+        "streambuf": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "qfile": "cpp",
+        "iostream": "cpp",
+        "type_traits": "cpp"
     }
 }

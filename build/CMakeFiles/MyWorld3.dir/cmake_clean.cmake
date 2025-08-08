@@ -4,6 +4,14 @@ file(REMOVE_RECURSE
   "MyWorld3_autogen"
   "CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/MyWorld3.dir/src/Config.cpp.obj"
+  "CMakeFiles/MyWorld3.dir/src/Config.cpp.obj.d"
+  "CMakeFiles/MyWorld3.dir/src/EventListener.cpp.obj"
+  "CMakeFiles/MyWorld3.dir/src/EventListener.cpp.obj.d"
+  "CMakeFiles/MyWorld3.dir/src/GlobalVar.cpp.obj"
+  "CMakeFiles/MyWorld3.dir/src/GlobalVar.cpp.obj.d"
+  "CMakeFiles/MyWorld3.dir/src/Logger/logger.cpp.obj"
+  "CMakeFiles/MyWorld3.dir/src/Logger/logger.cpp.obj.d"
   "CMakeFiles/MyWorld3.dir/src/MyWorld3.cpp.obj"
   "CMakeFiles/MyWorld3.dir/src/MyWorld3.cpp.obj.d"
   "CMakeFiles/MyWorld3.dir/src/main.cpp.obj"
@@ -12,6 +20,7 @@ file(REMOVE_RECURSE
   "MyWorld3.exe.manifest"
   "MyWorld3.pdb"
   "libMyWorld3.dll.a"
+  "ui_OpenGL.h"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MyWorld3_autogen"
+  "MyWorld3_autogen/include/src/ui_OpenGL.h"
   "MyWorld3_autogen/mocs_compilation.cpp"
 )
 

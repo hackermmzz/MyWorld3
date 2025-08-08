@@ -68,11 +68,15 @@ include CMakeFiles/MyWorld3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MyWorld3.dir/flags.make
 
+ui_OpenGL.h: C:/vscode/MyWorld3/src/OpenGL.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\vscode\MyWorld3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_OpenGL.h"
+	C:\Qt\Qt5.9.2\5.9.2\mingw53_32\bin\uic.exe -o C:/vscode/MyWorld3/build/ui_OpenGL.h C:/vscode/MyWorld3/src/OpenGL.ui
+
 CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.obj: CMakeFiles/MyWorld3.dir/flags.make
 CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.obj: CMakeFiles/MyWorld3.dir/includes_CXX.rsp
 CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.obj: MyWorld3_autogen/mocs_compilation.cpp
 CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.obj: CMakeFiles/MyWorld3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\vscode\MyWorld3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\vscode\MyWorld3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.obj"
 	C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\MyWorld3.dir\MyWorld3_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\MyWorld3.dir\MyWorld3_autogen\mocs_compilation.cpp.obj -c C:\vscode\MyWorld3\build\MyWorld3_autogen\mocs_compilation.cpp
 
 CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.i: cmake_force
@@ -83,11 +87,56 @@ CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.s"
 	C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\vscode\MyWorld3\build\MyWorld3_autogen\mocs_compilation.cpp -o CMakeFiles\MyWorld3.dir\MyWorld3_autogen\mocs_compilation.cpp.s
 
+CMakeFiles/MyWorld3.dir/src/Config.cpp.obj: CMakeFiles/MyWorld3.dir/flags.make
+CMakeFiles/MyWorld3.dir/src/Config.cpp.obj: CMakeFiles/MyWorld3.dir/includes_CXX.rsp
+CMakeFiles/MyWorld3.dir/src/Config.cpp.obj: C:/vscode/MyWorld3/src/Config.cpp
+CMakeFiles/MyWorld3.dir/src/Config.cpp.obj: CMakeFiles/MyWorld3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\vscode\MyWorld3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyWorld3.dir/src/Config.cpp.obj"
+	C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyWorld3.dir/src/Config.cpp.obj -MF CMakeFiles\MyWorld3.dir\src\Config.cpp.obj.d -o CMakeFiles\MyWorld3.dir\src\Config.cpp.obj -c C:\vscode\MyWorld3\src\Config.cpp
+
+CMakeFiles/MyWorld3.dir/src/Config.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyWorld3.dir/src/Config.cpp.i"
+	C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\vscode\MyWorld3\src\Config.cpp > CMakeFiles\MyWorld3.dir\src\Config.cpp.i
+
+CMakeFiles/MyWorld3.dir/src/Config.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyWorld3.dir/src/Config.cpp.s"
+	C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\vscode\MyWorld3\src\Config.cpp -o CMakeFiles\MyWorld3.dir\src\Config.cpp.s
+
+CMakeFiles/MyWorld3.dir/src/EventListener.cpp.obj: CMakeFiles/MyWorld3.dir/flags.make
+CMakeFiles/MyWorld3.dir/src/EventListener.cpp.obj: CMakeFiles/MyWorld3.dir/includes_CXX.rsp
+CMakeFiles/MyWorld3.dir/src/EventListener.cpp.obj: C:/vscode/MyWorld3/src/EventListener.cpp
+CMakeFiles/MyWorld3.dir/src/EventListener.cpp.obj: CMakeFiles/MyWorld3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\vscode\MyWorld3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyWorld3.dir/src/EventListener.cpp.obj"
+	C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyWorld3.dir/src/EventListener.cpp.obj -MF CMakeFiles\MyWorld3.dir\src\EventListener.cpp.obj.d -o CMakeFiles\MyWorld3.dir\src\EventListener.cpp.obj -c C:\vscode\MyWorld3\src\EventListener.cpp
+
+CMakeFiles/MyWorld3.dir/src/EventListener.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyWorld3.dir/src/EventListener.cpp.i"
+	C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\vscode\MyWorld3\src\EventListener.cpp > CMakeFiles\MyWorld3.dir\src\EventListener.cpp.i
+
+CMakeFiles/MyWorld3.dir/src/EventListener.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyWorld3.dir/src/EventListener.cpp.s"
+	C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\vscode\MyWorld3\src\EventListener.cpp -o CMakeFiles\MyWorld3.dir\src\EventListener.cpp.s
+
+CMakeFiles/MyWorld3.dir/src/GlobalVar.cpp.obj: CMakeFiles/MyWorld3.dir/flags.make
+CMakeFiles/MyWorld3.dir/src/GlobalVar.cpp.obj: CMakeFiles/MyWorld3.dir/includes_CXX.rsp
+CMakeFiles/MyWorld3.dir/src/GlobalVar.cpp.obj: C:/vscode/MyWorld3/src/GlobalVar.cpp
+CMakeFiles/MyWorld3.dir/src/GlobalVar.cpp.obj: CMakeFiles/MyWorld3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\vscode\MyWorld3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyWorld3.dir/src/GlobalVar.cpp.obj"
+	C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyWorld3.dir/src/GlobalVar.cpp.obj -MF CMakeFiles\MyWorld3.dir\src\GlobalVar.cpp.obj.d -o CMakeFiles\MyWorld3.dir\src\GlobalVar.cpp.obj -c C:\vscode\MyWorld3\src\GlobalVar.cpp
+
+CMakeFiles/MyWorld3.dir/src/GlobalVar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyWorld3.dir/src/GlobalVar.cpp.i"
+	C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\vscode\MyWorld3\src\GlobalVar.cpp > CMakeFiles\MyWorld3.dir\src\GlobalVar.cpp.i
+
+CMakeFiles/MyWorld3.dir/src/GlobalVar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyWorld3.dir/src/GlobalVar.cpp.s"
+	C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\vscode\MyWorld3\src\GlobalVar.cpp -o CMakeFiles\MyWorld3.dir\src\GlobalVar.cpp.s
+
 CMakeFiles/MyWorld3.dir/src/MyWorld3.cpp.obj: CMakeFiles/MyWorld3.dir/flags.make
 CMakeFiles/MyWorld3.dir/src/MyWorld3.cpp.obj: CMakeFiles/MyWorld3.dir/includes_CXX.rsp
 CMakeFiles/MyWorld3.dir/src/MyWorld3.cpp.obj: C:/vscode/MyWorld3/src/MyWorld3.cpp
 CMakeFiles/MyWorld3.dir/src/MyWorld3.cpp.obj: CMakeFiles/MyWorld3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\vscode\MyWorld3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyWorld3.dir/src/MyWorld3.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\vscode\MyWorld3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyWorld3.dir/src/MyWorld3.cpp.obj"
 	C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyWorld3.dir/src/MyWorld3.cpp.obj -MF CMakeFiles\MyWorld3.dir\src\MyWorld3.cpp.obj.d -o CMakeFiles\MyWorld3.dir\src\MyWorld3.cpp.obj -c C:\vscode\MyWorld3\src\MyWorld3.cpp
 
 CMakeFiles/MyWorld3.dir/src/MyWorld3.cpp.i: cmake_force
@@ -102,7 +151,7 @@ CMakeFiles/MyWorld3.dir/src/main.cpp.obj: CMakeFiles/MyWorld3.dir/flags.make
 CMakeFiles/MyWorld3.dir/src/main.cpp.obj: CMakeFiles/MyWorld3.dir/includes_CXX.rsp
 CMakeFiles/MyWorld3.dir/src/main.cpp.obj: C:/vscode/MyWorld3/src/main.cpp
 CMakeFiles/MyWorld3.dir/src/main.cpp.obj: CMakeFiles/MyWorld3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\vscode\MyWorld3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyWorld3.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\vscode\MyWorld3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyWorld3.dir/src/main.cpp.obj"
 	C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyWorld3.dir/src/main.cpp.obj -MF CMakeFiles\MyWorld3.dir\src\main.cpp.obj.d -o CMakeFiles\MyWorld3.dir\src\main.cpp.obj -c C:\vscode\MyWorld3\src\main.cpp
 
 CMakeFiles/MyWorld3.dir/src/main.cpp.i: cmake_force
@@ -113,18 +162,41 @@ CMakeFiles/MyWorld3.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyWorld3.dir/src/main.cpp.s"
 	C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\vscode\MyWorld3\src\main.cpp -o CMakeFiles\MyWorld3.dir\src\main.cpp.s
 
+CMakeFiles/MyWorld3.dir/src/Logger/logger.cpp.obj: CMakeFiles/MyWorld3.dir/flags.make
+CMakeFiles/MyWorld3.dir/src/Logger/logger.cpp.obj: CMakeFiles/MyWorld3.dir/includes_CXX.rsp
+CMakeFiles/MyWorld3.dir/src/Logger/logger.cpp.obj: C:/vscode/MyWorld3/src/Logger/logger.cpp
+CMakeFiles/MyWorld3.dir/src/Logger/logger.cpp.obj: CMakeFiles/MyWorld3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\vscode\MyWorld3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MyWorld3.dir/src/Logger/logger.cpp.obj"
+	C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyWorld3.dir/src/Logger/logger.cpp.obj -MF CMakeFiles\MyWorld3.dir\src\Logger\logger.cpp.obj.d -o CMakeFiles\MyWorld3.dir\src\Logger\logger.cpp.obj -c C:\vscode\MyWorld3\src\Logger\logger.cpp
+
+CMakeFiles/MyWorld3.dir/src/Logger/logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyWorld3.dir/src/Logger/logger.cpp.i"
+	C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\vscode\MyWorld3\src\Logger\logger.cpp > CMakeFiles\MyWorld3.dir\src\Logger\logger.cpp.i
+
+CMakeFiles/MyWorld3.dir/src/Logger/logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyWorld3.dir/src/Logger/logger.cpp.s"
+	C:\Qt\Qt5.9.2\Tools\mingw530_32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\vscode\MyWorld3\src\Logger\logger.cpp -o CMakeFiles\MyWorld3.dir\src\Logger\logger.cpp.s
+
 # Object files for target MyWorld3
 MyWorld3_OBJECTS = \
 "CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.obj" \
+"CMakeFiles/MyWorld3.dir/src/Config.cpp.obj" \
+"CMakeFiles/MyWorld3.dir/src/EventListener.cpp.obj" \
+"CMakeFiles/MyWorld3.dir/src/GlobalVar.cpp.obj" \
 "CMakeFiles/MyWorld3.dir/src/MyWorld3.cpp.obj" \
-"CMakeFiles/MyWorld3.dir/src/main.cpp.obj"
+"CMakeFiles/MyWorld3.dir/src/main.cpp.obj" \
+"CMakeFiles/MyWorld3.dir/src/Logger/logger.cpp.obj"
 
 # External object files for target MyWorld3
 MyWorld3_EXTERNAL_OBJECTS =
 
 MyWorld3.exe: CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.obj
+MyWorld3.exe: CMakeFiles/MyWorld3.dir/src/Config.cpp.obj
+MyWorld3.exe: CMakeFiles/MyWorld3.dir/src/EventListener.cpp.obj
+MyWorld3.exe: CMakeFiles/MyWorld3.dir/src/GlobalVar.cpp.obj
 MyWorld3.exe: CMakeFiles/MyWorld3.dir/src/MyWorld3.cpp.obj
 MyWorld3.exe: CMakeFiles/MyWorld3.dir/src/main.cpp.obj
+MyWorld3.exe: CMakeFiles/MyWorld3.dir/src/Logger/logger.cpp.obj
 MyWorld3.exe: CMakeFiles/MyWorld3.dir/build.make
 MyWorld3.exe: C:/Qt/Qt5.9.2/5.9.2/mingw53_32/lib/libQt5Widgetsd.a
 MyWorld3.exe: C:/Qt/Qt5.9.2/5.9.2/mingw53_32/lib/libQt5Guid.a
@@ -133,7 +205,7 @@ MyWorld3.exe: C:/Qt/Qt5.9.2/5.9.2/mingw53_32/lib/libqtmaind.a
 MyWorld3.exe: CMakeFiles/MyWorld3.dir/linkLibs.rsp
 MyWorld3.exe: CMakeFiles/MyWorld3.dir/objects1.rsp
 MyWorld3.exe: CMakeFiles/MyWorld3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\vscode\MyWorld3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MyWorld3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\vscode\MyWorld3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable MyWorld3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MyWorld3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -144,7 +216,7 @@ CMakeFiles/MyWorld3.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles\MyWorld3.dir\cmake_clean.cmake
 .PHONY : CMakeFiles/MyWorld3.dir/clean
 
-CMakeFiles/MyWorld3.dir/depend:
+CMakeFiles/MyWorld3.dir/depend: ui_OpenGL.h
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\vscode\MyWorld3 C:\vscode\MyWorld3 C:\vscode\MyWorld3\build C:\vscode\MyWorld3\build C:\vscode\MyWorld3\build\CMakeFiles\MyWorld3.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/MyWorld3.dir/depend
 

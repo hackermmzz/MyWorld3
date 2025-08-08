@@ -64,6 +64,30 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/vscode/MyWorld3/src/Config.h",
+			"MU",
+			"UVLADIE3JM/moc_Config.cpp",
+			null
+		],
+		[
+			"C:/vscode/MyWorld3/src/EventListener.h",
+			"MU",
+			"UVLADIE3JM/moc_EventListener.cpp",
+			null
+		],
+		[
+			"C:/vscode/MyWorld3/src/GlobalVar.h",
+			"MU",
+			"UVLADIE3JM/moc_GlobalVar.cpp",
+			null
+		],
+		[
+			"C:/vscode/MyWorld3/src/Logger/logger.h",
+			"MU",
+			"4G5MYLI6ZS/moc_logger.cpp",
+			null
+		],
+		[
 			"C:/vscode/MyWorld3/src/MyWorld3.h",
 			"MU",
 			"UVLADIE3JM/moc_MyWorld3.cpp",
@@ -123,6 +147,10 @@
 	"SETTINGS_FILE" : "C:/vscode/MyWorld3/build/CMakeFiles/MyWorld3_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/vscode/MyWorld3/src/Config.cpp", "MU", null ],
+		[ "C:/vscode/MyWorld3/src/EventListener.cpp", "MU", null ],
+		[ "C:/vscode/MyWorld3/src/GlobalVar.cpp", "MU", null ],
+		[ "C:/vscode/MyWorld3/src/Logger/logger.cpp", "MU", null ],
 		[ "C:/vscode/MyWorld3/src/MyWorld3.cpp", "MU", null ],
 		[ "C:/vscode/MyWorld3/src/main.cpp", "MU", null ]
 	],

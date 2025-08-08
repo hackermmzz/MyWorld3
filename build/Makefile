@@ -165,6 +165,102 @@ MyWorld3_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.s
 .PHONY : MyWorld3_autogen/mocs_compilation.cpp.s
 
+src/Config.obj: src/Config.cpp.obj
+.PHONY : src/Config.obj
+
+# target to build an object file
+src/Config.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/Config.cpp.obj
+.PHONY : src/Config.cpp.obj
+
+src/Config.i: src/Config.cpp.i
+.PHONY : src/Config.i
+
+# target to preprocess a source file
+src/Config.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/Config.cpp.i
+.PHONY : src/Config.cpp.i
+
+src/Config.s: src/Config.cpp.s
+.PHONY : src/Config.s
+
+# target to generate assembly for a file
+src/Config.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/Config.cpp.s
+.PHONY : src/Config.cpp.s
+
+src/EventListener.obj: src/EventListener.cpp.obj
+.PHONY : src/EventListener.obj
+
+# target to build an object file
+src/EventListener.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/EventListener.cpp.obj
+.PHONY : src/EventListener.cpp.obj
+
+src/EventListener.i: src/EventListener.cpp.i
+.PHONY : src/EventListener.i
+
+# target to preprocess a source file
+src/EventListener.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/EventListener.cpp.i
+.PHONY : src/EventListener.cpp.i
+
+src/EventListener.s: src/EventListener.cpp.s
+.PHONY : src/EventListener.s
+
+# target to generate assembly for a file
+src/EventListener.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/EventListener.cpp.s
+.PHONY : src/EventListener.cpp.s
+
+src/GlobalVar.obj: src/GlobalVar.cpp.obj
+.PHONY : src/GlobalVar.obj
+
+# target to build an object file
+src/GlobalVar.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/GlobalVar.cpp.obj
+.PHONY : src/GlobalVar.cpp.obj
+
+src/GlobalVar.i: src/GlobalVar.cpp.i
+.PHONY : src/GlobalVar.i
+
+# target to preprocess a source file
+src/GlobalVar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/GlobalVar.cpp.i
+.PHONY : src/GlobalVar.cpp.i
+
+src/GlobalVar.s: src/GlobalVar.cpp.s
+.PHONY : src/GlobalVar.s
+
+# target to generate assembly for a file
+src/GlobalVar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/GlobalVar.cpp.s
+.PHONY : src/GlobalVar.cpp.s
+
+src/Logger/logger.obj: src/Logger/logger.cpp.obj
+.PHONY : src/Logger/logger.obj
+
+# target to build an object file
+src/Logger/logger.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/Logger/logger.cpp.obj
+.PHONY : src/Logger/logger.cpp.obj
+
+src/Logger/logger.i: src/Logger/logger.cpp.i
+.PHONY : src/Logger/logger.i
+
+# target to preprocess a source file
+src/Logger/logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/Logger/logger.cpp.i
+.PHONY : src/Logger/logger.cpp.i
+
+src/Logger/logger.s: src/Logger/logger.cpp.s
+.PHONY : src/Logger/logger.s
+
+# target to generate assembly for a file
+src/Logger/logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/Logger/logger.cpp.s
+.PHONY : src/Logger/logger.cpp.s
+
 src/MyWorld3.obj: src/MyWorld3.cpp.obj
 .PHONY : src/MyWorld3.obj
 
@@ -226,6 +322,18 @@ help:
 	@echo ... MyWorld3_autogen/mocs_compilation.obj
 	@echo ... MyWorld3_autogen/mocs_compilation.i
 	@echo ... MyWorld3_autogen/mocs_compilation.s
+	@echo ... src/Config.obj
+	@echo ... src/Config.i
+	@echo ... src/Config.s
+	@echo ... src/EventListener.obj
+	@echo ... src/EventListener.i
+	@echo ... src/EventListener.s
+	@echo ... src/GlobalVar.obj
+	@echo ... src/GlobalVar.i
+	@echo ... src/GlobalVar.s
+	@echo ... src/Logger/logger.obj
+	@echo ... src/Logger/logger.i
+	@echo ... src/Logger/logger.s
 	@echo ... src/MyWorld3.obj
 	@echo ... src/MyWorld3.i
 	@echo ... src/MyWorld3.s
