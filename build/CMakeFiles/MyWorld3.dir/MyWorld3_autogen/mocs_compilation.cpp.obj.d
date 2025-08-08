@@ -1,8 +1,9 @@
 CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.obj: \
  C:\vscode\MyWorld3\build\MyWorld3_autogen\mocs_compilation.cpp \
- C:\vscode\MyWorld3\build\MyWorld3_autogen\UVLADIE3JM/moc_MyWorld3.cpp \
- C:/vscode/MyWorld3/src/MyWorld3.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qmainwindow.h \
+ C:\vscode\MyWorld3\build\MyWorld3_autogen\UVLADIE3JM/moc_Canvas.cpp \
+ C:/vscode/MyWorld3/src/Canvas.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QOpenGLWidget \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qopenglwidget.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qtwidgetsglobal.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qtguiglobal.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qglobal.h \
@@ -199,6 +200,7 @@ CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qversiontagging.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qtgui-config.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qtwidgets-config.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QWidget \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qwidget.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qwindowdefs.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qobjectdefs.h \
@@ -304,53 +306,6 @@ CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qsizepolicy.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qcursor.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qkeysequence.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qtabwidget.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qicon.h \
- C:/vscode/MyWorld3/build/ui_OpenGL.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/QVariant \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qvariant.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qmap.h \
- C:/Qt/Qt5.9.2/Tools/mingw530_32/i686-w64-mingw32/include/c++/functional \
- C:/Qt/Qt5.9.2/Tools/mingw530_32/i686-w64-mingw32/include/c++/typeinfo \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QAction \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qaction.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qvariant.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qactiongroup.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qaction.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QApplication \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qapplication.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qcoreapplication.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qcoreevent.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qeventloop.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qguiapplication.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qinputmethod.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qlocale.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QButtonGroup \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qbuttongroup.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QHeaderView \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qheaderview.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qabstractitemview.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qabstractscrollarea.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qframe.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qabstractitemmodel.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qitemselectionmodel.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qset.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qabstractitemdelegate.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qstyleoption.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qabstractspinbox.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qvalidator.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qregularexpression.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qslider.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qabstractslider.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qstyle.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qtabbar.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qrubberband.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QMainWindow \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qmainwindow.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QOpenGLWidget \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qopenglwidget.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QWidget \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qwidget.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/QSurfaceFormat \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qsurfaceformat.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qopengl.h \
@@ -489,6 +444,74 @@ CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/Qt5.9.2/Tools/mingw530_32/i686-w64-mingw32/include/imm.h \
  C:/Qt/Qt5.9.2/Tools/mingw530_32/i686-w64-mingw32/include/GL/gl.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qopenglext.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/QOpenGLFunctions_3_3_Core \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qopenglfunctions_3_3_core.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/QOpenGLVersionFunctions \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qopenglversionfunctions.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qopenglcontext.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/QObject \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qobject.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/QScopedPointer \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qscopedpointer.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qopenglversionfunctions.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qvariant.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qmap.h \
+ C:/Qt/Qt5.9.2/Tools/mingw530_32/i686-w64-mingw32/include/c++/functional \
+ C:/Qt/Qt5.9.2/Tools/mingw530_32/i686-w64-mingw32/include/c++/typeinfo \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/QOpenGLShaderProgram \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qopenglshaderprogram.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qvector2d.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qvector3d.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qvector4d.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qmatrix4x4.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qquaternion.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qgenericmatrix.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qdebug.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qtextstream.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qlocale.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qset.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qcontiguouscache.h \
+ C:\vscode\MyWorld3\build\MyWorld3_autogen\UVLADIE3JM/moc_MyWorld3.cpp \
+ C:/vscode/MyWorld3/src/MyWorld3.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qmainwindow.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qwidget.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qtabwidget.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qicon.h \
+ C:/vscode/MyWorld3/build/ui_OpenGL.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/QVariant \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qvariant.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QAction \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qaction.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qactiongroup.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qaction.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QApplication \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qapplication.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qcoreapplication.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qcoreevent.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qeventloop.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qguiapplication.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qinputmethod.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QButtonGroup \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qbuttongroup.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QHeaderView \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qheaderview.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qabstractitemview.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qabstractscrollarea.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qframe.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qabstractitemmodel.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qitemselectionmodel.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qabstractitemdelegate.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qstyleoption.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qabstractspinbox.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qvalidator.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qregularexpression.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qslider.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qabstractslider.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qstyle.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qtabbar.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qrubberband.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QMainWindow \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qmainwindow.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QVBoxLayout \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qboxlayout.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qlayout.h \

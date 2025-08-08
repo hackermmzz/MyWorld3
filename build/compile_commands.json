@@ -7,6 +7,12 @@
 },
 {
   "directory": "C:/vscode/MyWorld3/build",
+  "command": "C:\\Qt\\Qt5.9.2\\Tools\\mingw530_32\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/MyWorld3.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\MyWorld3.dir\\src\\Canvas.cpp.obj -c C:\\vscode\\MyWorld3\\src\\Canvas.cpp",
+  "file": "C:/vscode/MyWorld3/src/Canvas.cpp",
+  "output": "CMakeFiles/MyWorld3.dir/src/Canvas.cpp.obj"
+},
+{
+  "directory": "C:/vscode/MyWorld3/build",
   "command": "C:\\Qt\\Qt5.9.2\\Tools\\mingw530_32\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/MyWorld3.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\MyWorld3.dir\\src\\Config.cpp.obj -c C:\\vscode\\MyWorld3\\src\\Config.cpp",
   "file": "C:/vscode/MyWorld3/src/Config.cpp",
   "output": "CMakeFiles/MyWorld3.dir/src/Config.cpp.obj"
@@ -40,5 +46,11 @@
   "command": "C:\\Qt\\Qt5.9.2\\Tools\\mingw530_32\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/MyWorld3.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\MyWorld3.dir\\src\\Logger\\logger.cpp.obj -c C:\\vscode\\MyWorld3\\src\\Logger\\logger.cpp",
   "file": "C:/vscode/MyWorld3/src/Logger/logger.cpp",
   "output": "CMakeFiles/MyWorld3.dir/src/Logger/logger.cpp.obj"
+},
+{
+  "directory": "C:/vscode/MyWorld3/build",
+  "command": "C:\\Qt\\Qt5.9.2\\Tools\\mingw530_32\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/MyWorld3.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\MyWorld3.dir\\src\\Exception\\Exception.cpp.obj -c C:\\vscode\\MyWorld3\\src\\Exception\\Exception.cpp",
+  "file": "C:/vscode/MyWorld3/src/Exception/Exception.cpp",
+  "output": "CMakeFiles/MyWorld3.dir/src/Exception/Exception.cpp.obj"
 }
 ]

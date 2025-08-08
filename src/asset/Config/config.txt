@@ -1,3 +1,10 @@
 {
-    
+    "Game":{
+        "title":"MyWorld3",
+        "sizex":800,
+        "sizey":600,
+        "posx":1000,
+        "posy":400,
+        "icon":"asset/Image/Icon/icon.png"
+    }
 }

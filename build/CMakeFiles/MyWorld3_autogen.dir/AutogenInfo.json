@@ -64,6 +64,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/vscode/MyWorld3/src/Canvas.h",
+			"MU",
+			"UVLADIE3JM/moc_Canvas.cpp",
+			null
+		],
+		[
 			"C:/vscode/MyWorld3/src/Config.h",
 			"MU",
 			"UVLADIE3JM/moc_Config.cpp",
@@ -73,6 +79,12 @@
 			"C:/vscode/MyWorld3/src/EventListener.h",
 			"MU",
 			"UVLADIE3JM/moc_EventListener.cpp",
+			null
+		],
+		[
+			"C:/vscode/MyWorld3/src/Exception/Exception.h",
+			"MU",
+			"R4WFVWMC7I/moc_Exception.cpp",
 			null
 		],
 		[
@@ -147,8 +159,10 @@
 	"SETTINGS_FILE" : "C:/vscode/MyWorld3/build/CMakeFiles/MyWorld3_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/vscode/MyWorld3/src/Canvas.cpp", "MU", null ],
 		[ "C:/vscode/MyWorld3/src/Config.cpp", "MU", null ],
 		[ "C:/vscode/MyWorld3/src/EventListener.cpp", "MU", null ],
+		[ "C:/vscode/MyWorld3/src/Exception/Exception.cpp", "MU", null ],
 		[ "C:/vscode/MyWorld3/src/GlobalVar.cpp", "MU", null ],
 		[ "C:/vscode/MyWorld3/src/Logger/logger.cpp", "MU", null ],
 		[ "C:/vscode/MyWorld3/src/MyWorld3.cpp", "MU", null ],

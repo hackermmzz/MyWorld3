@@ -165,6 +165,30 @@ MyWorld3_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/MyWorld3_autogen/mocs_compilation.cpp.s
 .PHONY : MyWorld3_autogen/mocs_compilation.cpp.s
 
+src/Canvas.obj: src/Canvas.cpp.obj
+.PHONY : src/Canvas.obj
+
+# target to build an object file
+src/Canvas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/Canvas.cpp.obj
+.PHONY : src/Canvas.cpp.obj
+
+src/Canvas.i: src/Canvas.cpp.i
+.PHONY : src/Canvas.i
+
+# target to preprocess a source file
+src/Canvas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/Canvas.cpp.i
+.PHONY : src/Canvas.cpp.i
+
+src/Canvas.s: src/Canvas.cpp.s
+.PHONY : src/Canvas.s
+
+# target to generate assembly for a file
+src/Canvas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/Canvas.cpp.s
+.PHONY : src/Canvas.cpp.s
+
 src/Config.obj: src/Config.cpp.obj
 .PHONY : src/Config.obj
 
@@ -212,6 +236,30 @@ src/EventListener.s: src/EventListener.cpp.s
 src/EventListener.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/EventListener.cpp.s
 .PHONY : src/EventListener.cpp.s
+
+src/Exception/Exception.obj: src/Exception/Exception.cpp.obj
+.PHONY : src/Exception/Exception.obj
+
+# target to build an object file
+src/Exception/Exception.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/Exception/Exception.cpp.obj
+.PHONY : src/Exception/Exception.cpp.obj
+
+src/Exception/Exception.i: src/Exception/Exception.cpp.i
+.PHONY : src/Exception/Exception.i
+
+# target to preprocess a source file
+src/Exception/Exception.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/Exception/Exception.cpp.i
+.PHONY : src/Exception/Exception.cpp.i
+
+src/Exception/Exception.s: src/Exception/Exception.cpp.s
+.PHONY : src/Exception/Exception.s
+
+# target to generate assembly for a file
+src/Exception/Exception.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyWorld3.dir\build.make CMakeFiles/MyWorld3.dir/src/Exception/Exception.cpp.s
+.PHONY : src/Exception/Exception.cpp.s
 
 src/GlobalVar.obj: src/GlobalVar.cpp.obj
 .PHONY : src/GlobalVar.obj
@@ -322,12 +370,18 @@ help:
 	@echo ... MyWorld3_autogen/mocs_compilation.obj
 	@echo ... MyWorld3_autogen/mocs_compilation.i
 	@echo ... MyWorld3_autogen/mocs_compilation.s
+	@echo ... src/Canvas.obj
+	@echo ... src/Canvas.i
+	@echo ... src/Canvas.s
 	@echo ... src/Config.obj
 	@echo ... src/Config.i
 	@echo ... src/Config.s
 	@echo ... src/EventListener.obj
 	@echo ... src/EventListener.i
 	@echo ... src/EventListener.s
+	@echo ... src/Exception/Exception.obj
+	@echo ... src/Exception/Exception.i
+	@echo ... src/Exception/Exception.s
 	@echo ... src/GlobalVar.obj
 	@echo ... src/GlobalVar.i
 	@echo ... src/GlobalVar.s

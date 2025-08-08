@@ -5,3 +5,4 @@
 #include"GlobalVar.h"
 /////////////////////////////读取配置文件
 void ConfigInit();
+ConfigureTp ParseJson(const char* file);

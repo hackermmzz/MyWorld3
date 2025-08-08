@@ -345,10 +345,17 @@ CMakeFiles/MyWorld3.dir/src/main.cpp.obj: C:\vscode\MyWorld3\src\main.cpp \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qrubberband.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QMainWindow \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qmainwindow.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QOpenGLWidget \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qopenglwidget.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QVBoxLayout \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qboxlayout.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qlayout.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qlayoutitem.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qboxlayout.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qgridlayout.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QWidget \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qwidget.h \
+ C:/vscode/MyWorld3/src/Canvas.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QOpenGLWidget \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qopenglwidget.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/QSurfaceFormat \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qsurfaceformat.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qopengl.h \
@@ -487,24 +494,50 @@ CMakeFiles/MyWorld3.dir/src/main.cpp.obj: C:\vscode\MyWorld3\src\main.cpp \
  C:/Qt/Qt5.9.2/Tools/mingw530_32/i686-w64-mingw32/include/imm.h \
  C:/Qt/Qt5.9.2/Tools/mingw530_32/i686-w64-mingw32/include/GL/gl.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qopenglext.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QVBoxLayout \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qboxlayout.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qlayout.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qlayoutitem.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qboxlayout.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/qgridlayout.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/QOpenGLFunctions_3_3_Core \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qopenglfunctions_3_3_core.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/QOpenGLVersionFunctions \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qopenglversionfunctions.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qopenglcontext.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/QObject \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qobject.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/QScopedPointer \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qscopedpointer.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qopenglversionfunctions.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/QOpenGLShaderProgram \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qopenglshaderprogram.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qvector2d.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qvector3d.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qvector4d.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qmatrix4x4.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qquaternion.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qgenericmatrix.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qdebug.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qtextstream.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qcontiguouscache.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtWidgets/QApplication \
  C:\vscode\MyWorld3\src\EventListener.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qevent.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qurl.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qfile.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qfiledevice.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qvector2d.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtGui/qtouchdevice.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qobject.h \
- C:\vscode\MyWorld3\src\GlobalVar.h C:\vscode\MyWorld3\src\Config.h \
+ C:\vscode\MyWorld3\src\GlobalVar.h \
+ C:\vscode\MyWorld3\src\Logger/logger.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/QFile \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qfile.h \
+ C:/Qt/Qt5.9.2/Tools/mingw530_32/i686-w64-mingw32/include/c++/iostream \
+ C:/Qt/Qt5.9.2/Tools/mingw530_32/i686-w64-mingw32/include/c++/fstream \
+ C:/Qt/Qt5.9.2/Tools/mingw530_32/i686-w64-mingw32/include/c++/bits/codecvt.h \
+ C:/Qt/Qt5.9.2/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/basic_file.h \
+ C:/Qt/Qt5.9.2/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/c++io.h \
+ C:/Qt/Qt5.9.2/Tools/mingw530_32/i686-w64-mingw32/include/c++/bits/fstream.tcc \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qjsonvalue.h \
+ C:\vscode\MyWorld3\src\Config.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qjsonobject.h \
  C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qjsonvalue.h \
- C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qjsondocument.h
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qjsondocument.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/QDir \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qdir.h \
+ C:/Qt/Qt5.9.2/5.9.2/mingw53_32/include/QtCore/qfileinfo.h

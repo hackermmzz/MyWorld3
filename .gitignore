@@ -1,2 +1,3 @@
 # Qt 编译产物
 build/
+*.exe

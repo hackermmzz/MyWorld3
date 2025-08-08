@@ -12,3 +12,8 @@ C:/vscode/MyWorld3/src/EventListener.h
 C:/vscode/MyWorld3/src/EventListener.cpp
 C:/vscode/MyWorld3/src/Logger/logger.h
 C:/vscode/MyWorld3/src/Logger/logger.cpp
+C:/vscode/MyWorld3/src/Exception/Exception.h
+C:/vscode/MyWorld3/src/Exception/Exception.cpp
+C:/vscode/MyWorld3/src/Canvas.h
+ mmc:Q_OBJECT
+C:/vscode/MyWorld3/src/Canvas.cpp
