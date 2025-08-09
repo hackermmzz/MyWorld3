@@ -3,11 +3,12 @@
 #include <QOpenGLWidget>
 #include <QOpenGLFunctions_3_3_Core>
 #include <QOpenGLShaderProgram>
-
-class Canvas : public QOpenGLWidget, protected QOpenGLFunctions_3_3_Core
+#include"Render/Renderer.h"
+class Canvas : public QOpenGLWidget, public QOpenGLFunctions_3_3_Core
 {
     Q_OBJECT
-
+private:
+    Renderer*renderer;
 public:
     Canvas(QWidget *parent = nullptr);
     ~Canvas() override;

@@ -1,9 +1,10 @@
 #include"GlobalVar.h"
-
+/////////////////////////////////////////////
 EventListener*eventListener=0;
 ConfigureTp Configure;
 Logger Out,Error,Debug;
-
+Canvas*canvas=0;
+/////////////////////////////////////////////
 QJsonValue& ToQjsonValue(void* ptr)
 {
     if(ptr==0){

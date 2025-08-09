@@ -1,8 +1,8 @@
 #include "Canvas.h"
-
+#include "Render/Renderer.h"
 Canvas::Canvas(QWidget *parent):QOpenGLWidget(parent)
 {
-    
+    renderer=new Renderer();
 }
 
 Canvas::~Canvas()
@@ -12,6 +12,10 @@ Canvas::~Canvas()
 
 void Canvas::initializeGL()
 {
+    //赋给全局变量
+    extern Canvas *canvas;
+    canvas=this;
+    //
     //初始化opengl环境
     initializeOpenGLFunctions();
     //设置画刷颜色
@@ -20,7 +24,9 @@ void Canvas::initializeGL()
 
 void Canvas::paintGL()
 {
-    glClear(GL_COLOR_BUFFER_BIT);
+    //直接绘制
+    renderer->Render();
+    //
 }
 
 void Canvas::resizeGL(int width, int height)
